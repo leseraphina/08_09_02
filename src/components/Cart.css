@@ -1,0 +1,63 @@
+.box{
+  width:1200px;
+  margin: 0 auto;
+}
+.box>h3{
+  font-size:35px;
+  margin-bottom:20px;
+  text-align: center;
+  color:green;
+}
+
+.boxCart{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.boxCart > figure{
+  width:calc(25% - 1em);
+  margin: 0 0 1em;
+  padding:10px;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  text-align:center;
+}
+.boxCart > figure>img{
+  width:85%;
+  margin-bottom:10px;
+}
+.boxCart > figure dt{
+  margin-bottom:10px;
+  color:green;
+  font-size:18px;
+}
+.boxCart > figure dd{
+  margin-bottom:10px;
+}
+.boxCart > figure dd>button{
+  padding:5px 20px;
+  border:none;
+  background-color:#962828 ;
+  color:#fff;
+}
+
+footer{
+  text-align: center;
+  font-size:24px;
+}
+footer button{
+  padding:5px 50px;
+  border:none;
+  background: #333;
+  color:#fff;
+  margin-bottom:25px;
+}
+footer>div{
+  width:80%;
+  margin:0 auto;
+  padding:20px;
+  box-sizing: border-box;
+  color:#333;
+  line-height:1.5;
+  border:1px solid #ddd;
+}

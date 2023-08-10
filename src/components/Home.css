@@ -1,0 +1,42 @@
+.boxHome{
+  width:1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.boxHome>figure{
+  width:calc(25% - 1em);
+  padding:10px;
+  box-sizing: border-box;
+  margin: 0 0 1em;
+  text-align: center;
+  border:1px solid #ddd;
+}
+.boxHome>figure>img{
+  width:85%;
+  margin-bottom:20px;
+}
+.boxHome>figure dl{}
+.boxHome>figure dl>dt{
+  font-size:20px;
+  color:green;
+  margin-bottom:10px;
+}
+.boxHome>figure dl>dd:nth-of-type(1){
+  font-size:18px;
+  color:#666;
+  margin-bottom:10px;
+}
+.boxHome>figure dl>dd:nth-of-type(2)>button{
+  margin: 0 10px;
+  border:none;
+  background-color:#962828;
+  color:#fff;
+  padding:5px 20px;
+}
+.boxHome>figure dl>dd:nth-of-type(2)>button.delete{
+  background-color:#333;
+}
+
+/* 51 */
